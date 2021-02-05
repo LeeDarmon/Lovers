@@ -17,6 +17,6 @@ if (isset($_GET["deconnexion"])) {
     setcookie('age', null, -1, '/'); 
     setcookie('interet', null, -1, '/'); 
 
-    var_dump($_COOKIE);
+    
 }
 ?>
