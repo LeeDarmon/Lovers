@@ -34,12 +34,12 @@
   <?php echo ("<br>");?>
   <?php echo 'Interet : '.$_COOKIE['interet'] ?>
 
-  <form action="user.php" method="POST">
+ 
   <div class="row mt-3">
     <div class="col-6"><a href="#"><input type="button" class="btn btn-success mx-auto d-block" id="meetic" value="take my money"></a></div>
     <div class="col-6"><a href="../index.php?deconnexion=1"><input type="button" class="btn btn-success mx-auto d-block" id="deconnexion" value="deconnexion" name="deconnexion"></a></div>
     </div>
-  </form>
+
   
   </div>
 </div>

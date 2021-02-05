@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <form action="views/lovers.php" method="POST" id="formulaire">
+        <form action="index.php" method="POST" id="formulaire">
             <div class="col-12"><label class="mt-3" for="nom">Nom : </label><input id="nom" class="form-control input-lg" type="text" name="nom" placeholder="nom" maxlength="30" required></div>
             <div class="col-12"><label class="mt-3" for="prenom">Prenom : </label><input id="prenom" class="form-control input-lg" type="text" name="prenom" placeholder="prenom" maxlength="30" required></div>
             <div class="col-12"><label class="mt-3" for="age">Age : </label><input id="age" class="form-control input-lg" type="text" name="age" placeholder="age" maxlength="2" required></div>
