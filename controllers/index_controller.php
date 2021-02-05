@@ -1,7 +1,6 @@
 <?php 
 
 $timestamp = time()+24*3600;
-setcookie('cookie_exist',false);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     setcookie('nom',$_POST['nom'],$timestamp);
@@ -11,6 +10,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     setcookie('email',$_POST['email'],$timestamp);
     setcookie('codepostal',$_POST['codepostal'],$timestamp);
     setcookie('interet',$_POST['interet'],$timestamp);
-    setcookie('cookie_exist',true);
 
 }
