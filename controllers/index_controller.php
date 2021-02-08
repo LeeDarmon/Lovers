@@ -11,4 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     setcookie('codepostal',$_POST['codepostal'],$timestamp, '/');
     setcookie('interet',$_POST['interet'],$timestamp, '/');
 
+    header("Refresh:0");
+
 }

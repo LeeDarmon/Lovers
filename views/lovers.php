@@ -1,6 +1,6 @@
 <?php 
 
-// var_dump($_COOKIE);
+var_dump($_COOKIE);
 $membres = file_get_contents('membres.json');
 $membres_decoded = json_decode($membres, true);
 // var_dump($membres_decoded);
