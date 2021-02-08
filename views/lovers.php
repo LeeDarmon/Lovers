@@ -26,7 +26,7 @@ $membres_decoded = json_decode($membres, true);
     foreach($membres_decoded as $value){
         if($value['gender'] == $_COOKIE['interet']){
             ?>
-<div class="col-4">
+<div class="col-6 col-md-4">
 <div class="card">
   <img class="card-img-top mx-auto d-block" src="assets/img/<?php echo $value['picture'];?>" alt="Card image cap" style="width:150px;">
   <div class="card-body">
