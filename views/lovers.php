@@ -36,6 +36,8 @@ $membres_decoded = json_decode($membres, true);
   <p><?php echo $value['age']?></p>
   <p><?php echo $value['zipcode']?></p>
   <p><?php echo $value['description']?></p>
+
+  <button type="button" class="btn btn-primary mx-auto d-block">Like</button>
     
   </div>
 </div>
